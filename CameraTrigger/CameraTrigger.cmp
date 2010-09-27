@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2509)-final date = Wed 16 Jun 2010 04:20:57 PM PDT
+
+BeginCmp
+TimeStamp = /4AFC9287;
+Reference = P1;
+ValeurCmp = BNC;
+IdModule  = BNC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C181591;
+Reference = P2;
+ValeurCmp = camera_trigger_x4;
+IdModule  = HEADER_5x2_LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C181619;
+Reference = P3;
+ValeurCmp = ext_triggers;
+IdModule  = HEADER_5x2_LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C181425;
+Reference = P4;
+ValeurCmp = analog_input;
+IdModule  = HEADER_5x2_LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4AFC7D33;
+Reference = U1;
+ValeurCmp = TEENSYPP;
+IdModule  = Teensypp;
+EndCmp
+
+EndListe

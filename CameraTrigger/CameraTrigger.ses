@@ -1,0 +1,200 @@
+
+(session CameraTrigger.ses
+  (base_design CameraTrigger.dsn)
+  (placement
+    (resolution mil 10)
+    (component BNC
+      (place P1 33500 -47000 front 90)
+    )
+    (component Teensypp
+      (place U1 39250 -37000 front 0)
+    )
+    (component MOUNT_HOLE
+      (place MOUNT_HOLE_02 30250 -32000 front 0)
+      (place MOUNT_HOLE_01 30250 -52000 front 0)
+      (place MOUNT_HOLE_03 39000 -52000 front 0)
+      (place MOUNT_HOLE_04 39000 -32000 front 0)
+      (place MOUNT_HOLE_06 49000 -32000 front 0)
+      (place MOUNT_HOLE_05 49000 -52000 front 0)
+      (place MOUNT_HOLE_08 57750 -32000 front 0)
+      (place MOUNT_HOLE_07 57750 -52000 front 0)
+    )
+    (component HEADER_5x2_LARGE
+      (place P2 44000 -47000 front 270)
+      (place P3 54000 -47000 front 270)
+      (place P4 54000 -37000 front 270)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(20100406 SVN-R2509)-final")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /analog_input_0
+        (wire
+          (path Back 320
+            53500 -36000
+            53425 -36000
+            50470 -33045
+            42705 -33045
+            41750 -34000
+          )
+        )
+      )
+      (net /analog_input_1
+        (wire
+          (path Front 320
+            53500 -37000
+            49518 -33018
+            43732 -33018
+            42750 -34000
+          )
+        )
+      )
+      (net /analog_input_2
+        (wire
+          (path Back 320
+            53500 -38000
+            47750 -38000
+            43750 -34000
+          )
+        )
+      )
+      (net /analog_input_3
+        (wire
+          (path Front 320
+            53500 -39000
+            49750 -39000
+            44750 -34000
+          )
+        )
+      )
+      (net /camera_sync_trigger
+        (wire
+          (path Back 320
+            42861 -45522
+            43339 -46000
+            43500 -46000
+          )
+        )
+        (wire
+          (path Back 320
+            46005 -41485
+            45919 -41485
+            42861 -44543
+            42861 -45522
+          )
+        )
+        (wire
+          (path Back 320
+            42861 -45522
+            37566 -45522
+            36088 -47000
+          )
+        )
+        (wire
+          (path Back 320
+            35500 -47000
+            36088 -47000
+          )
+        )
+        (wire
+          (path Front 320
+            47750 -41485
+            47750 -40000
+          )
+        )
+        (wire
+          (path Front 320
+            53500 -46000
+            52265 -46000
+            47750 -41485
+          )
+        )
+        (wire
+          (path Front 320
+            47750 -41485
+            46005 -41485
+          )
+        )
+        (via "Via[0-1]_35:25_mil" 46005 -41485
+        )
+        (wire
+          (path Back 320
+            43500 -47000
+            43500 -46000
+          )
+        )
+        (wire
+          (path Back 320
+            43500 -48000
+            43500 -47000
+          )
+        )
+        (wire
+          (path Back 320
+            43500 -49000
+            43500 -48000
+          )
+        )
+      )
+      (net /external_device_trigger_1
+        (wire
+          (path Back 320
+            53500 -47000
+            49358 -42858
+            49358 -39748
+            48726 -39116
+            43634 -39116
+            42750 -40000
+          )
+        )
+      )
+      (net /external_device_trigger_2
+        (wire
+          (path Front 320
+            43750 -40000
+            51750 -48000
+            53500 -48000
+          )
+        )
+      )
+      (net /external_device_trigger_3
+        (wire
+          (path Back 320
+            53500 -49000
+            46443 -41943
+            46443 -41303
+            46027 -40887
+            45637 -40887
+            44750 -40000
+          )
+        )
+      )
+    )
+  )
+)

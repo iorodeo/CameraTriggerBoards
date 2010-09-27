@@ -1,0 +1,9 @@
+PCBNEW-LibDoc----V1  Thu 17 Jun 2010 01:03:25 PM PDT
+#
+$MODULE DIP-14__300
+Li DIP-14__300
+Cd 14 pins DIL package, round pads
+Kw DIL
+$EndMODULE
+#
+$EndLIBDOC

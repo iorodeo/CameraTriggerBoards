@@ -1,0 +1,141 @@
+# EESchema Netlist Version 1.1 created  Thu 17 Jun 2010 10:51:09 AM PDT
+(
+ ( /4C181619 $noname  P3 external_triggers {Lib=CONN_5X2}
+  (    1 +5V )
+  (    2 GND )
+  (    3 /camera_sync_trigger )
+  (    4 GND )
+  (    5 /external_device_trigger_1 )
+  (    6 GND )
+  (    7 /external_device_trigger_2 )
+  (    8 GND )
+  (    9 /external_device_trigger_3 )
+  (   10 GND )
+ )
+ ( /4C181591 $noname  P2 camera_trigger_x4 {Lib=CONN_5X2}
+  (    1 +5V )
+  (    2 GND )
+  (    3 /camera_sync_trigger )
+  (    4 GND )
+  (    5 /camera_sync_trigger )
+  (    6 GND )
+  (    7 /camera_sync_trigger )
+  (    8 GND )
+  (    9 /camera_sync_trigger )
+  (   10 GND )
+ )
+ ( /4C181425 $noname  P4 analog_inputs {Lib=CONN_5X2}
+  (    1 +5V )
+  (    2 GND )
+  (    3 /analog_input_0 )
+  (    4 GND )
+  (    5 /analog_input_1 )
+  (    6 GND )
+  (    7 /analog_input_2 )
+  (    8 GND )
+  (    9 /analog_input_3 )
+  (   10 GND )
+ )
+ ( /4AFC9287 $noname  P1 BNC {Lib=CONN_2}
+  (    1 /camera_sync_trigger )
+  (    2 GND )
+ )
+ ( /4AFC7D33 $noname  U1 TEENSYPP {Lib=TEENSYPP}
+  (    1 ? )
+  (    2 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 ? )
+  (   30 ? )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 /external_device_trigger_1 )
+  (   37 /external_device_trigger_2 )
+  (   38 /external_device_trigger_3 )
+  (   39 ? )
+  (   40 ? )
+  (   41 /camera_sync_trigger )
+  (   42 ? )
+  (   54 ? )
+  (   55 ? )
+  (   56 ? )
+  (   57 ? )
+  (   58 /analog_input_3 )
+  (   59 /analog_input_2 )
+  (   60 /analog_input_1 )
+  (   61 /analog_input_0 )
+  (   62 ? )
+  (   63 ? )
+  (  100 GND )
+  (  101 +5V )
+ )
+)
+*
+{ Pin List by Nets
+Net 25 "/analog_input_1" "analog_input_1"
+ P4 5
+ U1 60
+Net 26 "/analog_input_3" "analog_input_3"
+ P4 9
+ U1 58
+Net 32 "+5V" "+5V"
+ P3 1
+ P4 1
+ P2 1
+ U1 101
+Net 33 "GND" "GND"
+ P4 6
+ P4 4
+ P4 2
+ P4 8
+ P2 10
+ P2 8
+ P2 6
+ P2 4
+ P2 2
+ P3 4
+ P3 2
+ P3 10
+ P3 8
+ P3 6
+ P4 10
+ U1 100
+ P1 2
+Net 35 "/analog_input_2" "analog_input_2"
+ P4 7
+ U1 59
+Net 36 "/analog_input_0" "analog_input_0"
+ U1 61
+ P4 3
+Net 37 "/external_device_trigger_1" "external_device_trigger_1"
+ U1 36
+ P3 5
+Net 38 "/external_device_trigger_2" "external_device_trigger_2"
+ P3 7
+ U1 37
+Net 39 "/external_device_trigger_3" "external_device_trigger_3"
+ P3 9
+ U1 38
+Net 40 "/camera_sync_trigger" "camera_sync_trigger"
+ P2 3
+ P2 5
+ P2 7
+ P2 9
+ P1 1
+ U1 41
+ P3 3
+}
+#End

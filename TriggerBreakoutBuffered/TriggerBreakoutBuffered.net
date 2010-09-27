@@ -1,0 +1,60 @@
+# EESchema Netlist Version 1.1 created  Thu 17 Jun 2010 01:05:55 PM PDT
+(
+ ( /4C1A7E7E Capacitor C1 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4C19655B HEADER_5x2_LARGE P1 CONN_5X2
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 /SIGNAL0 )
+  ( 4 GND )
+  ( 5 /SIGNAL1 )
+  ( 6 GND )
+  ( 7 /SIGNAL2 )
+  ( 8 GND )
+  ( 9 /SIGNAL3 )
+  ( 10 GND )
+ )
+ ( /4C1965BD BNC P2 SIGNAL_0
+  ( 1 /BUFFERE1 )
+  ( 2 GND )
+ )
+ ( /4C1965EB BNC P3 SIGNAL_1
+  ( 1 /BUFFERE2 )
+  ( 2 GND )
+ )
+ ( /4C1965EE BNC P4 SIGNAL_2
+  ( 1 /BUFFERE3 )
+  ( 2 GND )
+ )
+ ( /4C1965F0 BNC P5 SIGNAL_3
+  ( 1 /BUFFERE4 )
+  ( 2 GND )
+ )
+ ( /4C198F63 DIP-14__300 U1 74LS125
+  ( 1 GND )
+  ( 2 /SIGNAL0 )
+  ( 3 /BUFFERE1 )
+  ( 4 GND )
+  ( 5 /SIGNAL1 )
+  ( 6 /BUFFERE2 )
+  ( 7 GND )
+  ( 8 /BUFFERE3 )
+  ( 9 /SIGNAL2 )
+  ( 10 GND )
+  ( 11 /BUFFERE4 )
+  ( 12 /SIGNAL3 )
+  ( 13 GND )
+  ( 14 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}

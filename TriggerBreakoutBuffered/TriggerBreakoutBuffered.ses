@@ -1,0 +1,144 @@
+
+(session TriggerBreakoutBuffered.ses
+  (base_design TriggerBreakoutBuffered.dsn)
+  (placement
+    (resolution mil 10)
+    (component BNC
+      (place P5 52750 -57000 back 90)
+      (place P4 52750 -47000 back 90)
+      (place P3 52750 -37000 back 90)
+      (place P2 52750 -27000 back 90)
+    )
+    (component "DIP-14__300"
+      (place U1 54500 -42000 front 180)
+    )
+    (component Capacitor
+      (place C1 60750 -36000 front 0)
+    )
+    (component HEADER_5x2_LARGE
+      (place P1 60750 -42000 front 270)
+    )
+    (component MOUNT_HOLE
+      (place MOUNT_HOLE_01 51500 -32000 front 0)
+      (place MOUNT_HOLE_02 61500 -32000 front 0)
+      (place MOUNT_HOLE_03 51500 -52000 front 0)
+      (place MOUNT_HOLE_04 61500 -52000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(20100406 SVN-R2509)-final")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /BUFFERE1
+        (wire
+          (path Back 320
+            54750 -27000
+            54750 -27588
+          )
+        )
+        (wire
+          (path Back 320
+            55500 -40500
+            55500 -28338
+            54750 -27588
+          )
+        )
+      )
+      (net /BUFFERE2
+        (wire
+          (path Back 320
+            52500 -40500
+            54750 -38250
+            54750 -37000
+          )
+        )
+      )
+      (net /BUFFERE3
+        (wire
+          (path Front 320
+            51500 -43500
+            52039 -44039
+            53129 -44039
+            53782 -44692
+            53782 -46032
+            54750 -47000
+          )
+        )
+      )
+      (net /BUFFERE4
+        (wire
+          (path Back 320
+            54500 -43500
+            54150 -43850
+            54150 -56400
+            54750 -57000
+          )
+        )
+      )
+      (net /SIGNAL0
+        (wire
+          (path Back 320
+            60250 -41000
+            60211 -41039
+            57039 -41039
+            56500 -40500
+          )
+        )
+      )
+      (net /SIGNAL1
+        (wire
+          (path Back 320
+            60250 -42000
+            55000 -42000
+            53500 -40500
+          )
+        )
+      )
+      (net /SIGNAL2
+        (wire
+          (path Back 320
+            60250 -43000
+            59711 -42461
+            53539 -42461
+            52500 -43500
+          )
+        )
+      )
+      (net /SIGNAL3
+        (wire
+          (path Back 320
+            60250 -44000
+            60163 -44087
+            56087 -44087
+            55500 -43500
+          )
+        )
+      )
+    )
+  )
+)

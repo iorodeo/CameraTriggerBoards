@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2509)-final date = Thu 17 Jun 2010 01:05:55 PM PDT
+
+BeginCmp
+TimeStamp = /4C1A7E7E;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C19655B;
+Reference = P1;
+ValeurCmp = CONN_5X2;
+IdModule  = HEADER_5x2_LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1965BD;
+Reference = P2;
+ValeurCmp = SIGNAL_0;
+IdModule  = BNC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1965EB;
+Reference = P3;
+ValeurCmp = SIGNAL_1;
+IdModule  = BNC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1965EE;
+Reference = P4;
+ValeurCmp = SIGNAL_2;
+IdModule  = BNC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1965F0;
+Reference = P5;
+ValeurCmp = SIGNAL_3;
+IdModule  = BNC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C198F63;
+Reference = U1;
+ValeurCmp = 74LS125;
+IdModule  = DIP-14__300;
+EndCmp
+
+EndListe

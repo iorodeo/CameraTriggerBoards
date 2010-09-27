@@ -1,0 +1,57 @@
+# EESchema Netlist Version 1.1 created  Wed 16 Jun 2010 07:01:32 PM PDT
+(
+ ( /4C1965F0 $noname  P5 SIGNAL_3 {Lib=CONN_2}
+  (    1 /Signal3 )
+  (    2 GND )
+ )
+ ( /4C1965EE $noname  P4 SIGNAL_2 {Lib=CONN_2}
+  (    1 /Signal2 )
+  (    2 GND )
+ )
+ ( /4C1965EB $noname  P3 SIGNAL_1 {Lib=CONN_2}
+  (    1 /Signal1 )
+  (    2 GND )
+ )
+ ( /4C1965BD $noname  P2 SIGNAL_0 {Lib=CONN_2}
+  (    1 /Signal0 )
+  (    2 GND )
+ )
+ ( /4C19655B $noname  P1 CONN_5X2 {Lib=CONN_5X2}
+  (    1 +5V )
+  (    2 GND )
+  (    3 /Signal0 )
+  (    4 GND )
+  (    5 /Signal1 )
+  (    6 GND )
+  (    7 /Signal2 )
+  (    8 GND )
+  (    9 /Signal3 )
+  (   10 GND )
+ )
+)
+*
+{ Pin List by Nets
+Net 2 "/Signal3" "Signal3"
+ P1 9
+ P5 1
+Net 3 "/Signal1" "Signal1"
+ P1 5
+ P3 1
+Net 4 "/Signal0" "Signal0"
+ P1 3
+ P2 1
+Net 5 "/Signal2" "Signal2"
+ P4 1
+ P1 7
+Net 6 "GND" "GND"
+ P3 2
+ P4 2
+ P2 2
+ P5 2
+ P1 2
+ P1 4
+ P1 6
+ P1 8
+ P1 10
+}
+#End

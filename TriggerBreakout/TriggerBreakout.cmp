@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2509)-final date = Wed 16 Jun 2010 05:11:47 PM PDT
+
+BeginCmp
+TimeStamp = /4C19655B;
+Reference = P1;
+ValeurCmp = CONN_5X2;
+IdModule  = HEADER_5x2_LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1965BD;
+Reference = P2;
+ValeurCmp = BNC_0;
+IdModule  = BNC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1965EB;
+Reference = P3;
+ValeurCmp = BNC_1;
+IdModule  = BNC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1965EE;
+Reference = P4;
+ValeurCmp = BNC_2;
+IdModule  = BNC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C1965F0;
+Reference = P5;
+ValeurCmp = BNC_3;
+IdModule  = BNC;
+EndCmp
+
+EndListe

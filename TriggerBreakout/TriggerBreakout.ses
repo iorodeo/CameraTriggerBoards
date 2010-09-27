@@ -1,0 +1,104 @@
+
+(session TriggerBreakout.ses
+  (base_design TriggerBreakout.dsn)
+  (placement
+    (resolution mil 10)
+    (component BNC
+      (place P5 52750 -57000 back 90)
+      (place P4 52750 -47000 back 90)
+      (place P3 52750 -37000 back 90)
+      (place P2 52750 -27000 back 90)
+    )
+    (component HEADER_5x2_LARGE
+      (place P1 60750 -42000 front 270)
+    )
+    (component MOUNT_HOLE
+      (place MOUNT_HOLE_01 51500 -32000 front 0)
+      (place MOUNT_HOLE_02 61500 -32000 front 0)
+      (place MOUNT_HOLE_03 51500 -52000 front 0)
+      (place MOUNT_HOLE_04 61500 -52000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(20100406 SVN-R2509)-final")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /Signal0
+        (wire
+          (path Back 320
+            54750 -27000
+            54750 -27588
+          )
+        )
+        (wire
+          (path Back 320
+            60250 -41000
+            60033 -41000
+            55338 -36305
+            55338 -28176
+            54750 -27588
+          )
+        )
+      )
+      (net /Signal1
+        (wire
+          (path Back 320
+            54750 -37000
+            55338 -37000
+          )
+        )
+        (wire
+          (path Back 320
+            60250 -42000
+            55338 -37088
+            55338 -37000
+          )
+        )
+      )
+      (net /Signal2
+        (wire
+          (path Back 320
+            60250 -43000
+            56250 -47000
+            54750 -47000
+          )
+        )
+      )
+      (net /Signal3
+        (wire
+          (path Back 320
+            60250 -44000
+            55719 -48531
+            55719 -56031
+            54750 -57000
+          )
+        )
+      )
+    )
+  )
+)
