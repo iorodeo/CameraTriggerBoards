@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2  date Thu 17 Jun 2010 10:51:05 AM PDT
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:CameraTrigger
-LIBS:CameraTrigger-cache
+EESchema Schematic File Version 2  date Mon 27 Sep 2010 12:51:46 PM PDT
+LIBS:power,/home/wbd/repos/iorodeo/CameraTriggerBoards/CameraTrigger,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 17 Jun 2010 10:50:27 AM PDT
+EESchema Schematic File Version 2  date Thu 17 Jun 2010 10:51:05 AM PDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -256,7 +256,7 @@ L CONN_5X2 P4
 U 1 1 4C181425
 P 6100 4950
 F 0 "P4" H 6100 5250 60  0000 C CNN
-F 1 "analog_input" H 6100 4650 50  0000 C CNN
+F 1 "analog_inputs" H 6100 4650 50  0000 C CNN
 	1    6100 4950
 	1    0    0    -1  
 $EndComp

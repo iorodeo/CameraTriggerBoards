@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100406 SVN-R2509)-final date = Wed 16 Jun 2010 04:20:57 PM PDT
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Mon 27 Sep 2010 12:53:38 PM PDT
 
 BeginCmp
 TimeStamp = /4AFC9287;
@@ -17,14 +17,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4C181619;
 Reference = P3;
-ValeurCmp = ext_triggers;
+ValeurCmp = external_triggers;
 IdModule  = HEADER_5x2_LARGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /4C181425;
 Reference = P4;
-ValeurCmp = analog_input;
+ValeurCmp = analog_inputs;
 IdModule  = HEADER_5x2_LARGE;
 EndCmp
 
