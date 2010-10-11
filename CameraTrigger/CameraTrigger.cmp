@@ -1,0 +1,185 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Sun 10 Oct 2010 06:00:34 PM PDT
+
+BeginCmp
+TimeStamp = /4A68BF50;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A68C286;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A68CA0C;
+Reference = C3;
+ValeurCmp = 18pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A68CA0F;
+Reference = C4;
+ValeurCmp = 18pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9F8DEB;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9F8DDD;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9F8DBF;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A69FDCB;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A68CAAC;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A68CB71;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A7B7A95;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAF9479;
+Reference = P1;
+ValeurCmp = cammera_trigger_x4;
+IdModule  = HEADER_5x2_LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAF9481;
+Reference = P2;
+ValeurCmp = external_triggers;
+IdModule  = HEADER_5x2_LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CAF9483;
+Reference = P3;
+ValeurCmp = analog_inputs;
+IdModule  = HEADER_5x2_LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6CC977;
+Reference = R1;
+ValeurCmp = 47K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6CCAE0;
+Reference = R2;
+ValeurCmp = 47K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A68C112;
+Reference = R3;
+ValeurCmp = 22;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A68C10E;
+Reference = R4;
+ValeurCmp = 22;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A68CB5A;
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A7B7A81;
+Reference = R6;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A68C98E;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = mini-pb;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6CCADE;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = mini-pb;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6A3FF7;
+Reference = U1;
+ValeurCmp = USB;
+IdModule  = usb_b_mini;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6A3E88;
+Reference = U2;
+ValeurCmp = AT90USB1287;
+IdModule  = at90usb1287;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9F7F18;
+Reference = U3;
+ValeurCmp = JTAG;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A68C9F1;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = Crystal-TH;
+EndCmp
+
+EndListe
