@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20090216-final) date = Sun 10 Oct 2010 06:00:34 PM PDT
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Mon 18 Oct 2010 11:28:04 PM PDT
 
 BeginCmp
 TimeStamp = /4A68BF50;
@@ -64,6 +64,13 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4CBD3A2F;
+Reference = C10;
+ValeurCmp = CP;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4A68CB71;
 Reference = D1;
 ValeurCmp = LED;
@@ -96,6 +103,13 @@ TimeStamp = /4CAF9483;
 Reference = P3;
 ValeurCmp = analog_inputs;
 IdModule  = HEADER_5x2_LARGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CBD2643;
+Reference = P4;
+ValeurCmp = BNC;
+IdModule  = BNC;
 EndCmp
 
 BeginCmp
