@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 19 Oct 2010 12:22:15 AM PDT
+EESchema Schematic File Version 2  date Wed 20 Oct 2010 07:10:42 PM PDT
 LIBS:power,/home/wbd/repos/iorodeo/CameraTriggerBoards/CameraTrigger,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./CameraTrigger.cache
 EELAYER 24  0
 EELAYER END
@@ -13,6 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 1600 7450 0    60   ~ 0
+Design by: IO Rodeo Inc.
+Text Notes 1600 7300 0    60   ~ 0
+http://creativecommons.org/licenses/by/3.0
+Text Notes 1600 7150 0    60   ~ 0
+Released under the Creative Commons Attribution Version 3.0 License
 Text Label 5950 1450 0    60   ~ 0
 GND
 Wire Wire Line
@@ -307,7 +313,7 @@ L CP C10
 U 1 1 4CBD3A2F
 P 5950 1100
 F 0 "C10" H 6000 1200 50  0000 L CNN
-F 1 "CP" H 6000 1000 50  0000 L CNN
+F 1 "0.1uF" H 6000 1000 50  0000 L CNN
 	1    5950 1100
 	1    0    0    -1  
 $EndComp

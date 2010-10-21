@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 19 Oct 2010 11:14:02 AM PDT
+PCBNEW-BOARD Version 1 date Wed 20 Oct 2010 07:10:38 PM PDT
 
 $GENERAL
 LayerCount 2
@@ -6,7 +6,7 @@ Ly 1FFF8001
 Links 91
 NoConn 0
 Di 8991 9924 42175 33225
-Ndraw 4
+Ndraw 7
 Ntrack 405
 Nzone 4034
 Nmodule 32
@@ -16,7 +16,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "19 oct 2010"
+Date "21 oct 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1978,6 +1978,21 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SM0805
+$TEXTPCB
+Te "Design by: IO Rodeo Inc."
+Po 16450 35450 400 400 60 0
+De 25 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "http://creativecommons.org/licenses/by/3.0"
+Po 21050 34400 400 400 60 0
+De 25 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "Released under the Creative Commons Attribution 3.0 License"
+Po 25350 33400 400 400 60 0
+De 25 1 0 Normal
+$EndTEXTPCB
 $DRAWSEGMENT
 Po 0 40000 10000 40000 32500 150
 De 28 0 900 0 0
